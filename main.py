@@ -1,13 +1,12 @@
 # The Logic Of Snake Game:
 # 1- we are creating a grid on the screen (simulation)
-# 2- some blocks of the grade are snake blocks
+# 2- some blocks of the grid are snake blocks
 # we move objects not by pix but by cell size
 # inorder to draw the snake we do the same thing we did for the fruit but we use multiple blocks not just one
-# inorder to move the snake, the head is moved to a new block then the block before the head is moved to the old head position and so on
+# inorder to move the snake, the head is moved to a new block then the block before the head is moved to the old head's position and so on
 # create a direction where the head is going to be moved and then creating a new positions list
 # 1) getting user inputs 2) creating a timer
 
-from cgitb import text
 import pygame, sys, random
 from pygame.math import Vector2
 
